@@ -1,0 +1,17 @@
+{
+    "name": "deploy",
+    "version": "0.0.1",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "probot run ./app.js",
+        "deploy": "gcloud app deploy app.yaml",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "npm": "^6.4.1",
+        "probot": "^7.1.1"
+    }
+}
