@@ -1,5 +1,7 @@
 # archipelago
 
+Yet another open PAAS implementation on GCP.
+
 - `web/`
   - web interface
   - GAE App
